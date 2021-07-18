@@ -22,7 +22,7 @@ export const SubscribeButton: React.FC<SubscribeButtonProps> = ({
       return;
     }
 
-    if (session.activeSubscription) {
+    if (session?.activeSubscription) {
       router.push('/posts');
       return;
     }
